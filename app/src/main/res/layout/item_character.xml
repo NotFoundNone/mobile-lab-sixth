@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@drawable/border_background"
+    android:layout_margin="8dp">
+
+    <!-- Имя персонажа -->
+    <TextView
+        android:id="@+id/nameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name:"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:paddingBottom="2dp" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:paddingBottom="8dp" />
+
+    <!-- Культура -->
+    <TextView
+        android:id="@+id/cultureLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Culture:"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:paddingBottom="2dp" />
+
+    <TextView
+        android:id="@+id/culture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp" />
+
+    <!-- Дата рождения -->
+    <TextView
+        android:id="@+id/bornLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Born:"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:paddingBottom="2dp" />
+
+    <TextView
+        android:id="@+id/born"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp" />
+
+    <!-- Титулы -->
+    <TextView
+        android:id="@+id/titlesLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Titles:"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:paddingBottom="2dp" />
+
+    <TextView
+        android:id="@+id/titles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp" />
+
+    <!-- Прозвища -->
+    <TextView
+        android:id="@+id/aliasesLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aliases:"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:paddingBottom="2dp" />
+
+    <TextView
+        android:id="@+id/aliases"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp" />
+
+    <!-- Игравшие персонажа актеры -->
+    <TextView
+        android:id="@+id/playedByLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Played by:"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:paddingBottom="2dp" />
+
+    <TextView
+        android:id="@+id/playedBy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
